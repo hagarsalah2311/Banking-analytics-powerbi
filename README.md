@@ -82,4 +82,4 @@ Star schema, with Customers and Accounts as the main dimensions:
 
 ## Author
 
-[Your name] | [LinkedIn profile link]
+[Hagar Salah] 
