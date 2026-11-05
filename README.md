@@ -71,15 +71,25 @@ Star schema, with Customers and Accounts as the main dimensions:
 
 ## Limitations
 
-- The support data has no agent, priority or resolution-time fields, so those analyses are not included.
-- The loan data has no income or credit score, so default risk and loan-to-income ratios cannot be calculated.
-- Loan status depends on today's date, so it changes as the report is refreshed over time.
+- The data is synthetic, so many splits are almost uniform (for example each transaction type is about 25%). The patterns are for practice rather than real business conclusions.
+- The support table has no agent, priority or resolution-time fields, so agent performance and resolution-time KPIs are not included.
+- The loan table has no income or credit score, so default risk and loan-to-income ratios cannot be calculated.
+- "Active" and "Dormant" accounts depend on the 500-day window used in the measure, and Loan Status depends on today's date, so it changes over time.
+- Transactions run from May 2022 to May 2025, so 2022 and 2025 are partial years and year-over-year comparisons for them are not like-for-like.
+- The State column includes "Army" (military addresses), which covers 531 customers (about 10%) and shows up as the largest "state" in some charts.
 
 ## How to open
 
-1. Install [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free, Windows).
-2. Download `sprint 2.pbix` from this repository and open it.
+Download `sprint 2.pbix` and open it in Power BI Desktop. Clear the slicers before reading the KPIs.
+
+## Data source
+
+Synthetic banking sample data (six tables) used for the Sprint 2 project. It contains no real customers.
 
 ## Author
 
-[Hagar Salah] 
+**Hagar Salah**
+
+Email: hagarsalah2311@gmail.com
+
+*Built as Sprint 2 of the INSTANT Data Analysis training.*
