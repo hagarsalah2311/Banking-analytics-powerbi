@@ -64,7 +64,7 @@ Star schema, with Customers and Accounts as the main dimensions:
 ## What the data shows
 
 - Total balances are about **254.7M**, total loans about **644.3M**, and transactions are worth about **100.1M** across 20,000 transactions.
-- **49.3%** of support calls are resolved. Calls are spread almost evenly across the four issue types (Transaction Dispute is highest at 803).
+- **49%** of support calls are resolved. Calls are spread almost evenly across the four issue types (Transaction Dispute is highest at 803).
 - Car, Home, Personal and Education loans are each around 620 to 660 loans and 154M to 162M. **Business loans are a small outlier: 28 loans and 7.1M.**
 - About **1,850 customers (37%)** have no account, which is a cross-sell opportunity.
 - Transactions are split almost equally across the four types, so no single transaction type dominates.
