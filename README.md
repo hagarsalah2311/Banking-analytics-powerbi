@@ -4,7 +4,7 @@ An interactive Power BI report that gives a retail bank one place to monitor its
 
 **Tools:** Power BI Desktop, Power Query (M), DAX, star-schema data modelling
 
-![Overview](screenshots/01-overview.png)
+![Overview](01-overview.PNG)
 
 ## Report pages
 
@@ -19,10 +19,10 @@ An interactive Power BI report that gives a retail bank one place to monitor its
 
 Every page has slicers (year, account type, loan status) and a navigation sidebar.
 
-![Customer Insights](screenshots/02-customer-insights.png)
-![Transactions](screenshots/03-transactions.png)
-![Loan Monitoring](screenshots/04-loan-monitoring.png)
-![Support and Satisfaction](screenshots/05-support-satisfaction.png)
+![Customer Insights](02-customer-insights.PNG)
+![Transactions](03-transactions.PNG)
+![Loan Monitoring](04-loan-monitoring.PNG)
+![Support and Satisfaction](05-support-satisfaction.PNG)
 
 ## Data
 
@@ -78,7 +78,7 @@ Star schema, with Customers and Accounts as the main dimensions:
 ## How to open
 
 1. Install [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free, Windows).
-2. Download `sprint_2.pbix` from this repository and open it.
+2. Download `sprint 2.pbix` from this repository and open it.
 
 ## Author
 
